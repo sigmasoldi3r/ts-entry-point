@@ -1,6 +1,6 @@
 {
   "name": "ts-entry-point",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "MIT",
   "repository": "https://github.com/sigmasoldi3r/ts-entry-point",
