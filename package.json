@@ -1,0 +1,14 @@
+{
+  "name": "entry-point",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "sigmasoldi3r",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node example.js"
+  }
+}

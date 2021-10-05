@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "Node",
+    "module": "CommonJS",
+    "target": "ES6"
+  },
+  "files": [
+    "index.ts",
+    "example.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
