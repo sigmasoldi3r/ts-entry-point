@@ -31,7 +31,7 @@ export default function entry(target: any, property?: string) {
     )
   }
   try {
-    const result = main(args)
+    const result = main.call(target, args)
     if (result instanceof Promise) {
       result.catch(err => {
         console.error(err)

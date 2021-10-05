@@ -2,8 +2,9 @@ import entry from '.'
 
 @entry
 export default class Main {
+  static readonly prop = 'Hello'
   static main() {
-    console.log('Default main')
+    console.log(`${this.prop} world!`)
   }
   @entry static start() {
     console.log('Custom main')

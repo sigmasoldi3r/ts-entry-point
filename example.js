@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const _1 = require(".");
 let Main = class Main {
     static main() {
-        console.log('Default main');
+        console.log(`${this.prop} world!`);
     }
     static start() {
         console.log('Custom main');
@@ -24,6 +24,7 @@ let Main = class Main {
         });
     }
 };
+Main.prop = 'Hello';
 __decorate([
     _1.default,
     __metadata("design:type", Function),
