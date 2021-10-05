@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "repository": "https://github.com/sigmasoldi3r/ts-entry-point",
   "author": "sigmasoldi3r",
   "devDependencies": {
     "typescript": "^4.4.3"
