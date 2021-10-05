@@ -8,13 +8,14 @@ Also, in case that you're running the process in NodeJS, you'll receive an `args
 
 ## Examples
 
-```ts
-import entry from 'entry-point
+```typescript
+import entry from 'entry-point'
 
 /**
  * Classical entry point main class.
  */
-@entry class Main {
+@entry
+class Main {
   static main(args: string[]) {
     console.log(`Hello wordl! arg count = ${args.length}`)
   }
