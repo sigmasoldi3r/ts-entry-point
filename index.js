@@ -29,7 +29,7 @@ function entry(target, property) {
         throw new Error(`Unable to find "${property}" function on target ${target}!`);
     }
     try {
-        const result = main(args);
+        const result = main.call(target, args);
         if (result instanceof Promise) {
             result.catch(err => {
                 console.error(err);
