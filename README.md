@@ -8,8 +8,20 @@ Also, in case that you're running the process in NodeJS, you'll receive an `args
 
 ## Examples
 
+You'll need to enable experimental decorators via `experimentalDecorators` option, either by CLI or in `tsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "experimentalDecorators": true
+  }
+}
+```
+
+Example of usage:
+
 ```typescript
-import entry from 'entry-point'
+import entry from 'ts-entry-point'
 
 /**
  * Classical entry point main class.
